@@ -1,0 +1,60 @@
+<html>
+    <style>
+        #main
+        {
+            /* border: 5px solid #f00; */
+            overflow: auto;
+            /* write this property whenever u use float left, bcz parent height becomes 0 */
+        }
+
+        .product
+        {
+            border: 1px solid #666;
+            width: 300px;
+            height: 300px;
+            float: left;
+            margin: 25px;
+            border-radius: 10px;
+            box-shadow: 10px 10px 10px 10px #ccc;
+            cursor: pointer;
+            transition: transform 2s;
+        }
+
+        .product:hover
+        {
+            border: 1px solid red;
+            box-shadow: 10px 10px 10px 10px #f00;
+            transform: rotate(5deg);
+            /* transform: scale(1.2); */
+        }
+    </style>
+
+    <body>
+        <main id="main">
+            <article class="product">
+                <img src="images/product7.jpg" >
+            </article>
+            <article  class="product">
+                <img src="images/product9.jpg" >
+            </article>
+            <article  class="product">
+                <img src="images/product8.jpg" >
+            </article>
+            <article class="product">
+                <img src="images/product10.jpg" >
+            </article>
+            <article class="product">
+                <img src="images/product7.jpg" >
+            </article>
+            <article class="product">
+                <img src="images/product8.jpg" >
+            </article>
+            <article class="product">
+                <img src="images/product11.jpg" >
+            </article>
+            <article class="product">
+                <img src="images/product10.jpg" >
+            </article>
+        </main>
+    </body>
+</html>

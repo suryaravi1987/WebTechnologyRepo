@@ -1,0 +1,57 @@
+<html>
+    <style>
+        *
+        {
+            margin: 0;
+            padding: 0;
+        }
+
+        #menu
+        {
+            border: 1px solid black;
+            background: black;
+            padding: 10px;
+        }
+
+        #menu ul
+        {
+            overflow: auto;
+            list-style: none;
+        }
+
+        #menu ul li
+        {
+            float: left;
+        }
+
+        #menu ul li a 
+        {
+            color: white;
+            text-decoration: none;
+            margin: 5px 20px;
+            border-right: 1px solid white;
+            padding-right: 20px;
+            transition: color 5s;
+        }
+
+        #menu ul li a:hover
+        {
+            color: red;
+            text-decoration: underline;
+        }
+    </style>
+
+    <body>
+        <nav id="menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Mens</a></li>
+                <li><a href="#">Women</a></li>
+                <li><a href="#">Kids</a></li>
+                <li><a href="#">View Cart</a></li>
+                <li><a href="#" style="border: none;">sign Out</a></li>
+            </ul>
+        </nav>
+    </body>
+</html>

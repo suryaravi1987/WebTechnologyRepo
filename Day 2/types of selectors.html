@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <title>Types of selector</title>
+
+        <style>
+                /* CSS selector selects html tags/elemenets */
+
+                /* 1. Universal selector : It selects all html elemenets. */
+
+                *
+                {
+                    /* border: 1px solid red; */
+                    font-size: 16px;
+                    font-family: Arial, Verdana;
+                    margin: 0;
+                    padding: 0;
+                }
+
+                /* 2. Tag selector: It selects specified tag. */
+                div
+                {
+                    border: 1px solid #ccc;
+                    margin: 10px;
+                    padding: 5px;
+                }
+
+                /* 3. Id selector: It selects only one element which is specified by (#) */
+
+                #d5
+                {
+                   font-weight: bold; 
+                    font-style: italic;
+                }
+
+                /* 4. Class selector: It selects multiple elements whose class is sepecified using (.) */
+                .even
+                {
+                    background: green;
+                }
+                .odd
+                {
+                    background: orange;
+                }
+
+                /* Nesting selector */
+                div p
+                {
+                    background: gray;
+                }
+
+                /* Multiple selectors can be separated by comma */
+                p, .even, h1
+                {
+                    text-decoration: underline;
+                }
+        </style>
+    </head>
+
+    <body>
+        <div class="odd">Division 1</div>
+        <div class="even">Division 2</div>
+        <div class="odd">Division 3</div>
+        <div class="even">Division 4</div>
+        <div id="d5" class="odd">Division 5</div>
+        <div class="even">Division 6</div>
+        <p>Para 1</p>
+        <p>Para 2</p>
+        <div>
+            <p>Para within Div</p>
+        </div>
+        <div>
+            <p>Para within Div</p>
+            <p>Para within Div</p>
+            <p>Para within Div</p>
+        </div>
+        <h1>Heading 1</h1>
+    </body>
+</html>
