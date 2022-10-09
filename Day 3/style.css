@@ -1,0 +1,136 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#wrapper {
+  border: 1px solid #000;
+  width: 960px;
+  margin: 0 auto;
+  /* height: 800px; */
+}
+
+#menu {
+  border: 1px solid black;
+  background: black;
+  padding: 10px;
+}
+
+#menu ul {
+  overflow: auto;
+  list-style: none;
+}
+
+#menu ul li {
+  float: left;
+}
+
+#menu ul li a {
+  color: white;
+  text-decoration: none;
+  margin: 5px 20px;
+  border-right: 1px solid white;
+  padding-right: 20px;
+  transition: color 5s;
+}
+
+#menu ul li a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+#banner img
+{
+    width: 960px;
+}
+
+.line
+{
+    background: url(images/bg.gif);
+    height: 5px;
+}
+
+#logo
+{
+    padding: 20px 0;
+    border-top: 1px dashed #ccc;
+}
+
+#main-content
+{
+    /* border: 2px solid red; */
+    overflow: auto;
+}
+.product
+{
+    border: 1px solid #ccc;
+    width: 310px;
+    float: left;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+.product figure img
+{
+    width: 305px;
+}
+
+.pr-margin
+{
+    margin-right: 12px;
+}
+
+.product figure figcaption
+{
+    font-size: 14px;
+    color: #888;
+    word-spacing: 5px;
+    text-align: justify;
+}
+
+#footer
+{
+    min-height: 100px;
+    background: #666;
+    padding: 20px 0;
+}
+
+#fdata
+{
+    width: 960px;
+    /* border: 1px solid #fff; */
+    margin: 0 auto;
+    overflow: auto;
+}
+
+#fdata article
+{
+    /* border: 1px solid #fff; */
+    width: 158px;
+    float: left;
+}
+
+#fdata article h2
+{
+    color: white;
+    margin-bottom: 20px;
+}
+
+#fdata article nav ul
+{
+    list-style: none;
+}
+
+#fdata article nav ul li a 
+{
+    color: #ccc;
+    font-size: 12px;
+    transition: margin-left 2s;
+}
+
+#fdata article nav ul li a:hover
+{
+    margin-left: 10px;
+}
